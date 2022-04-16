@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Leiras">
+   <meta name="keywords" content="Kulcsszavak, sorban">
+   <meta name="author" content="Kapeller Zoltan">
+   <link rel="stylesheet" href="./style.css">
+   <title>Wingspan</title>
+</head>
+
+<body>
+   <div class="container">
+      <table id="tablazat">
+         <thead>
+            <tr>
+               <th id="sorNev"></th>
+               <th class="jatekosPontok">Jatekos 1</th>
+               <th class="jatekosPontok">Jatekos 2</th>
+            </tr>
+         </thead>
+
+         <tr>
+            <th>Madarak</th>
+            <td><input type="number" name="" class="jk1Pont"></td>
+            <td><input type="number" name="" class="jk2Pont"></td>
+         </tr>
+         <tr>
+            <th>Bónuszkártyák</th>
+            <td><input type="number" name="" class="jk1Pont"></td>
+            <td><input type="number" name="" class="jk2Pont"></td>
+         </tr>
+         <tr>
+            <th>Forduló végi pontok</th>
+            <td><input type="number" name="" class="jk1Pont"></td>
+            <td><input type="number" name="" class="jk2Pont"></td>
+         </tr>
+         <tr>
+            <th>Tojások</th>
+            <td><input type="number" name="" class="jk1Pont"></td>
+            <td><input type="number" name="" class="jk2Pont"></td>
+         </tr>
+         <tr>
+            <th>Eledel a kártyákon</th>
+            <td><input type="number" name="" class="jk1Pont"></td>
+            <td><input type="number" name="" class="jk2Pont"></td>
+         </tr>
+         <tr>
+            <th>Eldugott kártyák</th>
+            <td><input type="number" name="" class="jk1Pont"></td>
+            <td><input type="number" name="" class="jk2Pont"></td>
+         </tr>
+
+         <tr>
+            <th>Összesen</th>
+            <td id="jk1Eredmeny" class="hidden"></td>
+            <td id="jk2Eredmeny" class="hidden"></td>
+         </tr>
+
+
+
+      </table>
+      <input type="button" value="Számol" id="szamolGomb">
+
+      <script src="./pontSzamitas.js"></script>
+   </div>
+</body>
+
+</html>
